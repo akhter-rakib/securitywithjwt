@@ -10,4 +10,8 @@ public final class UrlConstraint {
     public static class UserManagement {
         public static final String ROOT = VERSION + API + "/users";
     }
+
+    public static class RoleManagement {
+        public static final String ROOT = VERSION + API + "/roles";
+    }
 }
